@@ -1,1 +1,60 @@
 /*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 500px;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.message {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 5px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border: 2px solid #333;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
